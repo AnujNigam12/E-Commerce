@@ -1,0 +1,275 @@
+/* Navbar component STYLE */
+nav {
+    background-color: #333;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Dropdown Styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+    margin-left: -50px;
+}
+
+.dropdown-content a {
+    color: white;
+    margin-left: 5px;
+    padding: 12px 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+/* ABOUT PAGE STYLE */
+.aboutSection .heading {
+    padding: 100px 0 20px 50%;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px;
+
+}
+
+.mainAbout {
+    width: 100%;
+    background: rgb(230, 227, 227);
+    padding: 50px 50px;
+}
+
+.aboutFirstSection {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://static.ebayinc.com/static/assets/Uploads/Banners/_resampled/FillWzEyMDAsNDMwXQ/240514-Recommerce-report-promo-v1-ebayinc-home-promo-B2x.jpg?fs=f930745aae84c419z');
+    padding-top: 200px;
+}
+
+.textDiv {
+    width: 450px;
+    height: 200px;
+    padding: 10px 0 10px 90px;
+    background: rgb(230, 227, 227);
+}
+
+.textDiv a {
+    margin-left: 230px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.textDiv a:hover {
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.headingText::before {
+    content: 'The Era Of E-Commerce';
+}
+
+.secondHeading::before {
+    content: 'Shopping pre-loved is "in" for 2024';
+}
+
+.aboutSecondSection .heading {
+    margin: 30px 40%;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px;
+    text-decoration: underline;
+}
+
+.featured {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.rightFeatured .date,
+.foot {
+    font-size: 13px;
+}
+
+.rightFeatured .link {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.aboutThirdSection .heading {
+    margin: 50px 35%;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px;
+    text-decoration: underline;
+}
+
+.aboutThirdSection .purpose {
+    width: 100%;
+    height: 800px;
+    background-image: url('https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutThirdSection .purpose i {
+    margin: 350px 600px;
+    font-size: 70px;
+}
+
+.aboutFourthSection {
+    display: flex;
+    margin: 50px 80px;
+}
+
+.aboutFourthSection .joinInner,
+.awardInner {
+    background: white;
+    margin-left: 20px;
+    height: 610px;
+}
+
+.aboutFourthSection .joinInner .horizontalLine {
+    height: 5px;
+    margin-top: 25px;
+}
+
+.aboutFourthSection .joinInner .linkTheJoin {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.aboutFourthSection .joinInner .linkTheJoin:hover {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.aboutFourthSection .heading {
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px;
+    text-decoration: underline;
+}
+
+.joinInner .request {
+    color: blue;
+    margin: 50px 0 0 60px;
+}
+
+/* SERVICE PAGE STYLE */
+.serviceSection .heading {
+    padding: 100px 0 20px 50%;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px;
+}
+
+.serviceFirstSection {
+    display: flex;
+    margin: 10px 50px;
+}
+
+.serviceFirstSection .box {
+    background: rgb(51, 49, 49);
+    padding: 20px;
+}
+
+.serviceFirstSection .box1 {
+    background: rgb(7, 6, 6);
+}
+
+.serviceFirstSection .box h2 {
+    color: white;
+    height: 90px;
+}
+
+.serviceFirstSection .box p {
+    color: white;
+    opacity: 0.7;
+}
+
+.serviceSecondSection {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.serviceSecondSection .experience {
+    display: flex;
+    margin: 50px 50px;
+}
+
+.serviceSecondSection .experience p {
+    margin-left: 300px;
+}
+
+.serviceSecondSection .sharing {
+    display: flex;
+}
+
+.serviceSecondSection .sharing .box {
+    padding: 20px;
+    margin: 0 50px;
+}
+
+.serviceThirdSection {
+    display: flex;
+    margin: 100px;
+    padding: 50px;
+    background: rgb(228, 223, 223);
+}
+
+.serviceThirdSection .quality {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 200px;
+}
+
+.serviceThirdSection .quality .box {
+    width: 100px;
+    height: 100px;
+    background: rgb(214, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.serviceThirdSection .quality .box i {
+    font-size: 35px;
+}
+
+.serviceThirdSection .serviceQualityText {
+    width: 500px;
+    margin: 0 50px;
+}
